@@ -1,6 +1,9 @@
 name: Test React App
 
-on: [push, workflow_dispatch]
+on: 
+  workflow_dispatch:
+  push:
+    - main
 jobs:
   test:
     runs-on: ubuntu-latest
