@@ -39,7 +39,7 @@ jobs:
       - name: print result
         shell: bash
         run: |
-          value= 'cat test.txt'
+          value= cat 'test.txt'
           eval "$value"
 
   build:
