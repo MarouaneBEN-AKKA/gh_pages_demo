@@ -40,7 +40,7 @@ jobs:
         shell: bash
         run: |
           value= 'cat test.txt'
-          echo "$value"
+          eval "$value"
 
   build:
     needs: test 
